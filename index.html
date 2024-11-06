@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        .about-section {
+            display: flex;
+            align-items: center;
+            padding: 2rem;
+            gap: 2rem;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .team-section {
+            padding: 2rem;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .member-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            width: 280px;
+            text-align: center;
+        }
+
+        .member-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-logo {
+            width: 30px;
+            height: 30px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            color: #666;
+            font-weight: normal;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="about-section">
+            <div class="about-text">
+                <h2>How we chose this project</h2>
+                <p>
+                    We were put in touch with Stéphane Molano and Steven Van Poeck from Groupe Actual,
+                    via the director of Holberton School Bordeaux, Baptiste Rousseau.
+                    Our project consists of creating a website following the principle of API first to create a shortlink.
+                </p>
+                <p>
+                    This project is used as part of our Portfolio project for Holberton School Bordeaux.
+                </p>
+            </div>
+            <div class="about-logo">
+                <a href="https://www.holbertonschool.fr/">
+                    <img src="Holberton_logo.jpg" alt="Holberton Logo" class="logo">
+                </a>
+            </div>
+        </div>
+
+        <div class="team-section">
+            <h2>Team members :</h2>
+            <div class="team-members">
+                <!-- Sofiane Card -->
+                <div class="member-card">
+                    <img src="Sofiane_Slimane.jpg" alt="Sofiane Logo" class="member-photo">
+                    <h2>Sofiane Slimane</h2>
+                    <h3>Back-end Developer</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/SofianeSlimane" class="logo-link">
+                            <img src="GitHub_logo.jpg" alt="Github Logo" class="social-logo">
+                        </a>
+                        <a href="https://www.linkedin.com/in/sofianeslimane/" class="logo-link">
+                            <img src="linkedIn_logo.png" alt="Linkedin Logo" class="social-logo">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Axel Card -->
+                <div class="member-card">
+                    <img src="Axel_Nay.jpg" alt="Axel Logo" class="member-photo">
+                    <h2>Axel NAY</h2>
+                    <h3>Front-end Developer</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/AxelNAY" class="logo-link">
+                            <img src="GitHub_logo.jpg" alt="Github Logo" class="social-logo">
+                        </a>
+                        <a href="https://www.linkedin.com/in/axel-nay/" class="logo-link">
+                            <img src="linkedIn_logo.png" alt="Linkedin Logo" class="social-logo">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Stephane Card -->
+                <div class="member-card">
+                    <img src="Stephane_Molano.jpg" alt="Stephane Logo" class="member-photo">
+                    <h2>Stéphane Molano</h2>
+                    <h3>Full Stack Developer</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/molanostephane" class="logo-link">
+                            <img src="GitHub_logo.jpg" alt="Github Logo" class="social-logo">
+                        </a>
+                        <a href="https://www.linkedin.com/in/stephanemolano/" class="logo-link">
+                            <img src="linkedIn_logo.png" alt="Linkedin Logo" class="social-logo">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Steven Card -->
+                <div class="member-card">
+                    <img src="Steven_Van_Poeck.jpg" alt="Steven Logo" class="member-photo">
+                    <h2>Steven Van Poeck</h2>
+                    <h3>Lead Developer</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/steven-actual" class="logo-link">
+                            <img src="GitHub_logo.jpg" alt="Github Logo" class="social-logo">
+                        </a>
+                        <a href="https://www.linkedin.com/in/stevenvanpoeck/" class="logo-link">
+                            <img src="linkedIn_logo.png" alt="Linkedin Logo" class="social-logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
