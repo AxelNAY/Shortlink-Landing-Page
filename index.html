@@ -4,22 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <style>
+    <style>        
         .about-section {
             display: flex;
+            justify-content: space-between;
             align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 2rem;
             gap: 2rem;
         }
 
         .about-text {
             flex: 1;
+            text-align: left;
         }
 
-        .logo {
-            max-width: 200px;
-            height: auto;
+        h2 {
+            text-align: left;
+            margin-bottom: 1.5rem;
+            color: black;
         }
+
+        p {
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .about-logo {
+            flex: 0 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .about-logo .logo {
+            height: 200px;
+            width: auto;
+        }
+
 
         .team-section {
             padding: 2rem;
@@ -27,18 +50,17 @@
 
         .team-members {
             display: flex;
+            justify-content: center;
             flex-wrap: wrap;
             gap: 2rem;
-            justify-content: center;
-            margin-top: 2rem;
+            padding: 2rem;
         }
 
         .member-card {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 1.5rem;
-            width: 280px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 250px;
             text-align: center;
         }
 
@@ -52,29 +74,18 @@
 
         .social-links {
             display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-top: 1rem;
+            gap: 1.5rem;
+            margin-top: 0.5rem;
         }
 
         .social-logo {
-            width: 30px;
-            height: 30px;
-        }
-
-        h2 {
-            color: #333;
-            margin-bottom: 1rem;
+            width: 60px;
+            height: 60px;
         }
 
         h3 {
             color: #666;
             font-weight: normal;
-        }
-
-        p {
-            line-height: 1.6;
-            color: #444;
         }
     </style>
 </head>
